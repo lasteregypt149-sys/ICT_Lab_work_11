@@ -1,0 +1,411 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+
+.con {
+	width: 1920px;
+	height: 4100px; 
+	position: relative;
+	background: white;
+	display: flex;
+	justify-content: center;
+}
+
+.header {
+	width: 1500px;
+	height: 115px;
+	position: relative;
+
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	font-size: 40px;
+	font-weight: 800;
+	color: #111;
+	position: relative;
+	left: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+table {
+	background: white;
+}
+
+.menu {
+	width: 300px;
+	height: 100%;
+	position: relative;
+	left: 200px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu p {
+	font-size: 25px;
+	font-weight: 500;
+	color: #111;
+}
+
+.language {
+	width: 125px;
+	position: absolute;
+	right: 0;
+	height: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	color: #111;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.hero-section {
+	width: 100%;
+	height: 750px;
+	position: absolute;
+	background: #1B1B1F;
+	top: 215px;
+	left: 0;
+}
+
+.hero-section img {
+	position: relative;
+	top: -100px;
+	width: 850px;
+}
+
+.hero-text1 {
+	font-size: 100px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	position: absolute;
+	top: 100px;
+	right: 210px;
+	font-weight: 700;
+}
+
+.bottom {
+	width: 200px;
+	height: 2px;
+	background: white;
+	position: absolute;
+	right: 790px;
+	top: 350px;
+}
+
+.hero-text2 {
+	font-size: 30px;
+	font-weight: 400;
+	position: absolute;
+	right: 390px;
+	width: 600px;
+	top: 375px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	color: white;
+}
+
+.section2 {
+	width: 1500px;
+	height: 250px;
+	position: absolute;
+	top: 1100px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.box {
+	width: 210px;
+	height: 100%;
+}
+
+.box-text1 {
+	font-size: 125px;
+	color: #1B1B1F;
+	font-weight: 700;
+	position: absolute;
+	top: -100px;
+}
+
+.box-text2 {
+	bottom: 0;
+	position: absolute;
+	font-size: 50px;
+	font-weight: 700;
+	color: #1B1B1F;
+}
+
+.bg-block {
+	width: 3000px;
+	height: 2100px;
+	transform: rotate(10deg);
+	background: #E2E2E2;
+	position: absolute;
+	left: -500px;
+	top: 1550px;
+}
+
+
+main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+      position: absolute;
+      top: 1650px;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+      padding: 1.6rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: #1a2a6c;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 0.5rem;
+    }
+
+    h3 {
+      margin: 1rem 0 0.6rem;
+      color: #2c3e50;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    ul, ol {
+      margin-left: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    blockquote {
+      border-left: 4px solid #3498db;
+      padding-left: 1rem;
+      margin: 1.2rem 0;
+      color: #555;
+      font-style: italic;
+    }
+
+    .timeline {
+      position: relative;
+      padding-left: 2.2rem;
+      margin: 1.5rem 0;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 2px;
+      background: #3498db;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 1.4rem;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -28px;
+      top: 4px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #1a2a6c;
+      border: 3px solid white;
+      box-shadow: 0 0 0 2px #3498db;
+    }
+
+    /* CSS Display & Position */
+    .badge {
+      display: inline-block;
+      position: relative;
+      top: -2px;
+      background: #28a745;
+      color: white;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+    }
+
+    /* Float & Clear demo */
+    .float-demo {
+      overflow: hidden;
+      margin: 1.5rem 0;
+      border: 1px dashed #ccc;
+      padding: 1rem;
+      background: #f8f9fa;
+    }
+
+    .float-left {
+      float: left;
+      margin-right: 1rem;
+      background: #e3f2fd;
+      padding: 0.7rem;
+      border-radius: 6px;
+      width: 170px;
+    }
+
+    .float-right {
+      float: right;
+      margin-left: 1rem;
+      background: #ffebee;
+      padding: 0.7rem;
+      border-radius: 6px;
+      width: 170px;
+    }
+
+    .clear-fix {
+      clear: both;
+    }
+
+    /* Table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.8rem;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f1f1f1;
+    }
+
+    /* Form styling */
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 0.4rem;
+    }
+
+    input, textarea, select {
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: inherit;
+    }
+
+    button {
+      padding: 0.8rem 1.2rem;
+      background: #1a2a6c;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      width: fit-content;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0d1a4d;
+    }
+
+    
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	background-color: #1B1B1F;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+}
+
+.footer p {
+	color: #666;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.2rem 0;
+      font-size: 0.95rem;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.9rem;
+      text-align: left;
+    }
+
+    th {
+      background-color: #eef2f7;
+      font-weight: 600;
+      color: #1a2a6c;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fafafa;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 0.4rem;
+    }
+
+    input, textarea, select {
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: inherit;
+    }
+
